@@ -1,0 +1,23 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "Example code to make TDD ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test2": "mocha --reporter nyan",
+    "test_cover": "istanbul cover _mocha -- -R spec",
+    "testnyc": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0"
+  }
+}
